@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "tg-example"
+version = "0.1.0"
+description = ""
+authors = ["Sergey Katkovskiy <sergey.katkovskiy@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+aiogram = "3.4.1"
+pydantic = "2.5.3"
+pydantic-settings = "2.2.1"
+blake3 = "^0.4.1"
+click = "^8.1.7"
+black = "^24.3.0"
+isort = "^5.13.2"
+bs4 = "^0.0.2"
+requests = "^2.31.0"
+lxml = "^5.1.0"
+wikipedia = "^1.4.0"
+pandas = "^2.2.1"
+geopy = "^2.4.1"
+cairosvg = "^2.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
